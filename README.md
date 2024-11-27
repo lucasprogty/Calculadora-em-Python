@@ -5,9 +5,9 @@
  Documentaçao do codigo:
  
  
-gameOn = True    # condiçao inicial para que o codigo sera inicializado e se mantenha
+gameOn = True     #condiçao inicial para que o codigo sera inicializado e se mantenha
 
-while gameOn:    #enquanto a condiçao "gameOn" nao for mudada
+while gameOn:     #enquanto a condiçao "gameOn" nao for mudada
 
 	num1 = float(input('digite um numero:\n'))
 	num2 = float(input('digite outro numero:\n'))
@@ -31,4 +31,4 @@ while gameOn:    #enquanto a condiçao "gameOn" nao for mudada
 
 	continuar = input('voce deseja continuar: sim ou nao?').lower() #caso o usuario nao deseje continuar a condiçao para que o nosso loop While sera desfeita e o programa sera finalizado.
 	if continuar == 'nao':
-		gameOn = False '''
+		gameOn = False 
